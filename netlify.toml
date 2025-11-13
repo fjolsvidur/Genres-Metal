@@ -1,3 +1,3 @@
 [build]
-  command = "npx quartz build && node netlify-redirects.js"
+  command = "npx quartz build"
   publish = "public"
