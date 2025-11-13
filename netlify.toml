@@ -31,3 +31,12 @@
   for = "/*.html"
   [headers.values]
     Cache-Control = "public, max-age=3600"
+
+[[redirects]]
+  from = "/*"
+  to = "/:splat"
+  status = 200
+  force = true
+
+[context.production.environment]
+  NETLIFY_EXPERIMENTAL_FEATURES = "buildbot_clean_urls"
