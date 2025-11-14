@@ -1,6 +1,3 @@
----
-year: 1980s
----
 ### Subgenres and Fusion Genres
 - [[Crossover thrash]] (fusion with Hardcore punk)
 ### Description

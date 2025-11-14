@@ -1,6 +1,3 @@
----
-year: 1990s
----
 ### Subgenres and Fusion Genres
 - [[Deathcore]] (fusion with Death metal)
 - [[Mathcore]] (fusion with math rock)

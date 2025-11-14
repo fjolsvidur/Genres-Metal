@@ -1,7 +1,3 @@
----
-year: 1990s
----
-
 ### Subgenres and Fusion Genres
 - [[Nu-metal]] (fusion with hip hop/alternative rock)
 

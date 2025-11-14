@@ -1,7 +1,3 @@
----
-tags: keyNode
-year: 1970s
----
 ### Subgenres and Fusion Genres
 - [[Stoner-doom]] (fusion with Stoner rock)
 - [[Gothic metal]] (fusion with gothic rock)

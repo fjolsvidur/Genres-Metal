@@ -1,6 +1,3 @@
----
-year: 1990s
----
 ### Subgenres and Fusion Genres
 - [[Symphonic black metal]]
 - [[Symphonic death metal]]

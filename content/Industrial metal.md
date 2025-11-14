@@ -1,6 +1,3 @@
----
-year: 1980s
----
 ### Subgenres and Fusion Genres
 - [[Nu-metal]] (fusion with rap/alternative rock)
 ### Description

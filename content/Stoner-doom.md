@@ -1,7 +1,3 @@
----
-year: 1990s
----
-
 ### Description
 Stoner-doom is a **fusion of stoner rock and doom metal**, characterized by slow tempos, heavy and fuzzy guitar riffs, and a psychedelic, hypnotic atmosphere.
 ### Example Bands

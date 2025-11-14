@@ -1,6 +1,3 @@
----
-year: 1970s
----
 ### Subgenres and Fusion Genres
 [[Uk 82]] (Fusion with hardcore punk)
 ### Description

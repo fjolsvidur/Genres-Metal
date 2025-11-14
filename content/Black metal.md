@@ -1,7 +1,3 @@
----
-tags: keyNode
-year: 1980s
----
 ### Subgenres and Fusion Genres
 - [[Blackgaze]] (fusion with shoegaze)
 - [[Post-black metal]] (fusion with Post-metal)

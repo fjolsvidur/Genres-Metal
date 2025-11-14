@@ -1,6 +1,3 @@
----
-year: 1990s
----
 ### Description
 Nu-metal is a subgenre of alternative metal that **combines elements of heavy metal with hip hop, grunge, and alternative rock**, often featuring downtuned guitars and rapped vocals.
 ### Example Bands

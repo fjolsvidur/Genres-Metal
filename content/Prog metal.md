@@ -1,7 +1,3 @@
----
-tags: keyNode
-year: 1980s
----
 ### Subgenres and Fusion Genres
 - [[Djent]] (+ rhythm complexity)
 - [[Avant-garde metal]] (fusion with experimental/other genres)

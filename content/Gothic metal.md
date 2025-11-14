@@ -1,6 +1,3 @@
----
-year: 1990s
----
 ### Subgenres and Fusion Genres
 - [[Symphonic metal]] (fusion with symphonic/orchestral music)
 - [[Symphonic gothic metal]] (fusion with symphonic/orchestral elements)

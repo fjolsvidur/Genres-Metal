@@ -1,6 +1,3 @@
----
-year: 1980s
----
 ### Subgenres and Fusion Genres
 - [[Symphonic power metal]] (fusion with symphonic/orchestral elements)
 ### Description

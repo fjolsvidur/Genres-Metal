@@ -1,7 +1,3 @@
----
-tags: "keyNode"
-year: 1990s
----
 ### Subgenres and Fusion Genres
 [[Stoner-doom]] (fusion with Doom metal)
 ### Description

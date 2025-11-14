@@ -1,6 +1,3 @@
----
-year: 1990s
----
 ### Subgenres and Fusion Genres
 - [[Blackgaze]] (fusion with Black metal)
 ### Description

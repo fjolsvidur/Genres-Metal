@@ -1,7 +1,3 @@
----
-tags: keyNode
-year: 1970s
----
 ### Subgenres and Fusion Genres
 - [[Metalcore]] (fusion with metal)
 - [[Mathcore]] (fusion with math rock)

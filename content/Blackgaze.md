@@ -1,7 +1,3 @@
----
-year: 2000s
----
-
 ### Description
 Blackgaze is a fusion genre combining elements of black metal and shoegaze, known for its blend of harsh vocals, tremolo picking, and lush, atmospheric soundscapes.
 ### Example Bands

@@ -1,7 +1,3 @@
----
-year: 1990s
----
-
 ### Description
 Mathcore is a subgenre of hardcore punk and metalcore known for its complex, irregular time signatures, dissonant riffs, and intense energy.
 ### Example Bands
