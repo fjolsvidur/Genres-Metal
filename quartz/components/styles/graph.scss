@@ -10,8 +10,10 @@
     border-radius: 5px;
     border: 1px solid var(--lightgray);
     box-sizing: border-box;
-    height: 250px;
-    margin: 0.5em 0;
+    aspect-ratio: 1 / 1; // cuadrado
+    width: 100%;
+    max-width: 600px; // opcional, ajusta el tamaño máximo
+    margin: 0.5em auto;
     position: relative;
     overflow: hidden;
 

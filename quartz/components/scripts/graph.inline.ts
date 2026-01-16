@@ -161,10 +161,33 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       })),
   }
 
-  const width = graph.offsetWidth
-  const height = Math.max(graph.offsetHeight, 250)
-
+  function getGraphSize() {
+    const width = graph.offsetWidth
+    const height = width // cuadrado
+    return { width, height }
+  }
+  let { width, height } = getGraphSize()
   // we virtualize the simulation and use pixi to actually render it
+
+  // Redibujar el gráfico al hacer resize
+  function handleResize() {
+    // Elimina el canvas anterior
+    if (graph && graph.firstChild) {
+      graph.removeChild(graph.firstChild)
+    }
+    // Recalcula medidas y vuelve a crear el gráfico
+    const size = getGraphSize()
+    width = size.width
+    height = size.height
+    // Aquí podrías volver a llamar a la función principal de renderizado,
+    // o recargar la página, según la arquitectura del script
+    // window.location.reload() // alternativa simple
+    // O bien, podrías extraer la lógica de render en una función reutilizable
+    // y llamarla aquí
+    // Por simplicidad, recargamos la página:
+    window.location.reload()
+  }
+  window.addEventListener('resize', handleResize)
   const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
     .force("charge", forceManyBody().strength(-100 * repelForce))
     .force("center", forceCenter().strength(centerForce))
