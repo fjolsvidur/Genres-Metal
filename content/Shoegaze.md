@@ -1,8 +1,3 @@
----
-tags: "key node"
- 
- 
----
 ### Subgenres and Fusion Genres
 - [[Blackgaze]]
 - [[Metalgaze]]

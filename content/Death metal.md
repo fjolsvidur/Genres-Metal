@@ -1,7 +1,4 @@
----
-tags: keyNode
-year: 1980s
----
+
 ### Subgenres and Fusion Genres
 - [[Melodic death metal]] (fusion with melody/harmony)
 - [[Deathcore]] (fusion with Metalcore)

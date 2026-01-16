@@ -19,6 +19,7 @@
     "test": "tsx --test",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
     ,
+    "start": "npx quartz build --serve",  
     "sync": "rm -rf content && ln -s '/d/Digital Brain/Genres' content && npx quartz sync"
   },
   "engines": {
