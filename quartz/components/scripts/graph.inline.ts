@@ -412,6 +412,27 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     })
     label.scale.set(1 / scale)
 
+    // Fondo negro semitransparente detrás del texto
+    const labelBg = new Graphics()
+    labelBg.alpha = 1
+    labelBg.beginFill(0x000000)
+    // Usar getLocalBounds para obtener el tamaño real del texto
+    const bounds = label.getLocalBounds()
+    const padX = 4
+    const padY = bounds.height / 20
+    labelBg.drawRect(
+      bounds.x - padX,
+      bounds.y - padY -1,
+      bounds.width + padX * 2,
+      bounds.height + padY * 2
+    )
+    labelBg.endFill()
+
+    // Agrupar fondo y texto
+    const labelGroup = new Container()
+    labelGroup.addChild(labelBg)
+    labelGroup.addChild(label)
+
     let oldLabelOpacity = 0
     const isTagNode = nodeId.startsWith("tags/")
     const gfx = new Graphics({
@@ -443,12 +464,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     }
 
     nodesContainer.addChild(gfx)
-    labelsContainer.addChild(label)
+    labelsContainer.addChild(labelGroup)
 
     const nodeRenderDatum: NodeRenderData = {
       simulationData: n,
       gfx,
-      label,
+      label: labelGroup,
       color: color(n),
       alpha: 1,
       active: false,
